@@ -31,7 +31,7 @@ sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ                                          
 #sed -i 's|^TARGET_|# TARGET_|g; s|# TARGET_DEVICES += phicomm_k3|TARGET_DEVICES += phicomm_k3|' target/linux/bcm53xx/image/Makefile
 
 #拉取Lienol仓库的luci-app-ipsec-server
-svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-ipsec-server package/luci-app-ipsec-server
+#svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-ipsec-server package/luci-app-ipsec-server
 
 # 修改插件名字
 sed -i 's/"aMule设置"/"电驴下载"/g' `grep "aMule设置" -rl ./`
