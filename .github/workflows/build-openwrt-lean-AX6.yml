@@ -35,9 +35,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Lede_AX3600_source]
+        target: [Lede_AX6_source]
 
-        # [Lede_AX3600_source,Lede_source,Lienol_source,Mortal_source,openwrt_amlogic]
+        # [Lede_AX6_source,Lede_source,Lienol_source,Mortal_source,openwrt_amlogic]
 
     steps:
     - name: 准备结束
