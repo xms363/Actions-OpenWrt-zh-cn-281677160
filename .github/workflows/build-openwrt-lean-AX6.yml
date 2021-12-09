@@ -15,7 +15,7 @@
 #
 #
 
-name: 启动编译AX6
+name: 编译OpenWrt_AX6
 on:
   workflow_dispatch:
     inputs:
