@@ -15,7 +15,7 @@
 #
 #
 
-name: 编译OpenWrt_AX6固件
+name: 触发compile启动编译
 on:
   workflow_dispatch:
     inputs:
@@ -57,9 +57,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        target: [Lede_AX6_source]
+        target: [Lede_source]
 
-        # [Lede_AX6_source,Lede_source,Lienol_source,Mortal_source,openwrt_amlogic]
+        # [Lede_source,Lienol_source,Mortal_source,Tianling_source,openwrt_amlogic]
 
     
     steps:
