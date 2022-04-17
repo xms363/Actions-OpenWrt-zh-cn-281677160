@@ -45,7 +45,7 @@ EOF
 
 
 # 设置首次登录后台密码为空（进入openwrt后自行修改密码）
-sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ_PATH
+#sed -i '/CYXluq4wUazHjmCDBCqXF/d' $ZZZ_PATH
 
 
 # 取消路由器每天跑分任务
